@@ -1,1 +1,7 @@
 django
+celery
+dj_database_url
+redis
+psycopg2-binary
+nplusone
+whitenoise
