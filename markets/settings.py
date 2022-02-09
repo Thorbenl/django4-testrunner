@@ -75,7 +75,7 @@ SECURE_HSTS_SECONDS = int(os.environ.get("SECURE_HSTS_SECONDS", 31536000))
 SECURE_HSTS_INCLUDE_SUBDOMAINS = False
 SECURE_HSTS_PRELOAD = False
 
-
+TEST_RUNNER = "markets.test_runner.CustomTestSuiteRunner"
 IN_DORMANT_MODE = strtobool(os.environ.get("IN_DORMANT_MODE", "False"))
 
 
